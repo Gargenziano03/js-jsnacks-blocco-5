@@ -8,5 +8,5 @@ const people = [
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
 people.forEach(function (element) {
-  console.log(element.name);
+  console.log(element['name']);
 })
